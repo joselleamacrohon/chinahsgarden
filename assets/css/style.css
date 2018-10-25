@@ -1,0 +1,193 @@
+
+*{
+	/*reset*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+
+}
+
+.clear:after{
+	content: " "; /*invisible element*/
+	clear: both;
+	display: block;
+}
+
+
+
+
+body {
+
+
+	/*background-color: lightgrey;*/
+	
+	margin: 0 auto;
+	/*font-family: 'Roboto', sans-serif;*/
+}
+
+.container-fluid {
+	/*width: 960px;*/
+	background-color: white;
+	/*height: 2000px;*/
+}
+
+
+/*nav here ------------------------------*/
+
+#main-icon {
+	height: 5em;
+	/*height: 100px;*/
+}
+
+nav {
+	/*margin-top: 3vh;*/
+	background-color: rgba(255,255,255,0);
+	/*height: 5vh;*/
+	/*margin-bottom: -5vh;*/
+}
+
+.nav-item {
+	padding-left: 2em;
+	padding-right: 2em;
+	background-color: #72bb53;
+	/*border: 2px solid white;*/
+	border-radius: 3px;
+	margin-right: 2px;s
+	font-size: 1.1em;
+	text-transform: uppercase;
+}
+
+.nav-link {
+	/*border: 2px solid blue;*/
+
+	/*color: red;*/
+}
+
+
+
+.nav-item:link, .nav-item:visited{
+	/*color: white;*/
+}
+
+.nav-link:link, .nav-link:visited{
+	color: white;
+}
+
+.nav-item:hover {
+	color: white;
+	background-color: #4c7a34;
+
+}
+
+#navbar-nav {
+	/*background-color: black;*/
+}
+
+#burger-box {
+	color: #4c7a34;
+/*background-color: black;*/
+border: 1px solid #4c7a34;
+}
+
+
+
+a:link
+{
+	color:  black;
+	/*text-decoration-color: none;*/
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: purple;
+}
+
+/*end nav here ------------------------------*/
+
+
+/*-----------------------------------------article--------------------------------- */
+/*carousel*/
+
+.carousel-photo-main {
+	/*height: 80vh;*/
+	width: 100%
+}
+
+#carousel-homepage {
+	margin-top: 7em;
+}
+
+
+#info-footer {
+	min-height: 50px;
+	color: white;
+	line-height: 3em;
+	text-align: center;
+	background-color: green;
+}
+
+
+/*/footer------------------------------------------------------------------------------*/
+.icon-footer-socials {
+	color: green;
+	font-size: 2em;
+}
+
+
+
+
+/*end footer here-------------------------------------*/
+/*MOBILE SCREEN*/
+
+@media only screen and (max-width: 400px) {
+
+#main-icon {
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	height: 3em;
+}
+
+.navbar {
+	padding: 0;
+}
+
+.carousel-photo-main {
+	height: 40vh;
+}
+
+#burger-box {
+	margin-right: 1em;
+}
+
+} /*end of mobile media*/
+
+
+/*TABLET VIEW */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+#main-icon {
+	height: 3em;
+}
+
+
+.carousel-photo-main {
+	height: 50vh;
+	/*width: 100%;*/
+}
+
+} /*end of tablet media*/
+
+/*DESKTOP VIEW*/
+@media only screen and (min-width: 961px) { 
+body {
+	width: 80%;
+}
+
+} /*end of desktop media*/
+
+
+
