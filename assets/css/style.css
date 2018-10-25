@@ -94,12 +94,12 @@ border: 1px solid #4c7a34;
 
 a:link
 {
-	color:  black;
+	color:  white;
 	/*text-decoration-color: none;*/
 }
 
 a:visited {
-	color: black;
+	color: white;
 }
 
 a:hover {
@@ -155,13 +155,21 @@ font-size: 1em;
 	color: green;
 	font-size: 2em;
 	padding-left: .5em;
+
 }
 
 footer {
-	height: 6em;
+	height: auto;
 	background-color: rgb(75, 75, 75);
 }
 
+
+
+#footer-grey-notes {
+	padding-top: .5em;
+	padding-bottom: .5em;
+
+}
 
 
 /*end footer here-------------------------------------*/
@@ -210,7 +218,13 @@ footer {
 
 #socials-icons {
 	display: none;
+
 }
+#footer-grey-notes {
+	
+	font-size: .8em;
+}
+
 
 } /*end of mobile media*/
 
@@ -236,6 +250,7 @@ footer {
 #info-footer, .footer-text-format {
 	padding: 5px;
 }
+
 
 } /*end of tablet media*/
 
