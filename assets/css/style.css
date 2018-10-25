@@ -20,7 +20,7 @@
 body {
 
 
-	/*background-color: lightgrey;---------------------------*/
+	/*background-color: lightgrey;*/
 	
 	margin: 0 auto;
 	/*font-family: 'Roboto', sans-serif;*/
@@ -151,9 +151,11 @@ color: rgba(75,75,75);
 .icon-footer-socials {
 	color: green;
 	font-size: 2em;
+	padding-left: .5em;
 }
 
 footer {
+	height: 6em;
 	background-color: rgb(75, 75, 75);
 }
 
@@ -223,12 +225,25 @@ footer {
 	/*width: 100%;*/
 }
 
+
+.nav-item {  /*remove border-radius of the expand lg screen*/
+	border-radius: 0;
+}
+
+#info-footer, .footer-text-format {
+	padding: 5px;
+}
+
 } /*end of tablet media*/
 
 /*DESKTOP VIEW*/
 @media only screen and (min-width: 961px) { 
 body {
 	width: 80%;
+}
+
+#jumbotron-sumptuous {
+	display: none;
 }
 
 } /*end of desktop media*/
