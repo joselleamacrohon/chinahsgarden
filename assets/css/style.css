@@ -20,7 +20,7 @@
 body {
 
 
-	background-color: lightgrey;
+	/*background-color: lightgrey;---------------------------*/
 	
 	margin: 0 auto;
 	/*font-family: 'Roboto', sans-serif;*/
@@ -28,7 +28,7 @@ body {
 
 .container-fluid {
 	/*width: 960px;*/
-	background-color: grey;
+	/*background-color: grey;*/
 	/*height: 2000px;*/
 }
 
@@ -125,12 +125,26 @@ a:hover {
 /*end carousel*/
 
 #info-footer {
-	min-height: 50px;
+	min-height: 3em;
 	color: white;
 	line-height: 3em;
 	text-align: center;
 	background-color: green;
 }
+
+/*jumbotron here*/
+
+#jumbotron-sumptuous {
+background-color: white;	
+color: rgba(75,75,75);
+
+}
+
+
+
+/*end jumbotron*/
+
+
 
 
 /*/footer------------------------------------------------------------------------------*/
@@ -139,6 +153,9 @@ a:hover {
 	font-size: 2em;
 }
 
+footer {
+	background-color: rgb(75, 75, 75);
+}
 
 
 
@@ -163,6 +180,31 @@ a:hover {
 
 #burger-box {
 	margin-right: 1em;
+}
+
+
+.nav-item {  /*remove border-radius of the expand lg screen*/
+	border-radius: 0;
+}
+
+.footer-text-format {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+#info-footer {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	min-height: 3em;
+	/*color: white;*/
+	line-height: 1.1em;
+	/*text-align: center;*/
+	/*background-color: green;*/
+	font-size: .7em;
+}
+
+#socials-icons {
+	display: none;
 }
 
 } /*end of mobile media*/
