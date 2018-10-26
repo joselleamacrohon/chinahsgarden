@@ -32,7 +32,7 @@ font-size: 3em;
 font-weight: bolder;
 }
 
-.page-title:visited {
+.page-title:visited, .page-title:link {
 	color: #404040;
 }
 
