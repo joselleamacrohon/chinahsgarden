@@ -32,7 +32,17 @@ font-size: 3em;
 font-weight: bolder;
 }
 
-.sacramento-subtitle {
+.page-title:visited {
+	color: #404040;
+}
+
+#main-icon {
+	height: 2em;
+	/*height: 5em;*/
+	/*height: 100px;*/
+}
+
+.ptsans-subtitle {
 	font-family: 'PT Sans', sans-serif;
 /*font-family: 'Sacramento', cursive;*/
 /*font-size: 2em;*/
@@ -45,16 +55,9 @@ p {
 	color: #404040;
 }
 
-.page-title:visited {
-	color: #404040;
 
-}
 
-#main-icon {
-	height: 2em;
-	/*height: 5em;*/
-	/*height: 100px;*/
-}
+
 
 nav {
 	/*padding-top: 10vh;*/
@@ -67,7 +70,7 @@ nav {
 .nav-item {
 	padding-left: 1em;
 	padding-right: 1em;
-	/*background-color: #72bb53;*/
+	background-color: white;
 	/*border: 2px solid white;*/
 	/*border-radius: .5em;*/
 	/*margin-right: 2px;*/
@@ -290,10 +293,24 @@ footer {
 @media only screen and (max-width: 400px) {
 
 #main-icon {
-	margin-top: 0.5em;
-	margin-left: 0.5em;
-	height: 3em;
+	/*margin-top: 0.5em;*/
+	/*margin-left: 0.5em;*/
+	height: 2.5em;
 }
+
+.page-title{
+font-size: 2em;
+font-weight: bolder;
+}
+
+.ptsans-subtitle {
+	/*font-family: 'PT Sans', sans-serif;*/
+/*font-family: 'Sacramento', cursive;*/
+font-size: 1.2em;
+/*font-weight: bold;*/
+/*color: #72bb53;*/
+}
+
 
 nav {
 	background-color: white;
@@ -342,6 +359,10 @@ nav {
 	font-size: .8em;
 }
 
+#jumbotron-sumptuous {
+padding-top: 2em;
+padding-bottom: 7em; 
+}
 
 } /*end of mobile media*/
 
@@ -350,7 +371,16 @@ nav {
 @media only screen and (min-width: 401px) and (max-width: 960px) {
 
 #main-icon {
-	height: 3em;
+	height: 2em;
+}
+
+#jumbotron-sumptuous {
+padding-top: 2em;
+padding-bottom: 10em; 
+}
+
+#jumbotron-sumptuous h3 {
+	font-size: 2.5em;
 }
 
 #socials-icons, #remove-tablet {
