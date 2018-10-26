@@ -37,9 +37,12 @@ font-weight: bolder;
 }
 
 #main-icon {
-	height: 2em;
+	height: 1.8em;
+	/*width: 1.5em;*/
 	/*height: 5em;*/
 	/*height: 100px;*/
+	margin-right: .2em;
+	margin-top: .2em;
 }
 
 .ptsans-subtitle {
@@ -59,11 +62,11 @@ p {
 
 
 
-nav {
+#main-navi {
 	/*padding-top: 10vh;*/
 	/*background-color: white;*/
 	background-color: rgba(255,255,255,1);
-	height: 10vh;
+	height: 9vh;
 	margin-bottom: -50px;
 }
 
@@ -228,12 +231,62 @@ footer {
 
 /*#################################----------------------MEALS PAGE STARTS HERE--------------------------------------------###########################*/
 
+.carousel-photo-meals {
+	margin-top: 85px;
+	/*border: 1px solid red;*/
+}
+
+#carousel-meals {
+	
+	width: 100%;
+	/*align-items: center;*/
+	margin: 0 auto;
+}
+
+#below-carousel-text {
+	width: 70%;
+
+}
+
+#below-carousel-text p{
+	font-family: 'Sacramento', cursive;
+	font-size: 2em;
+}
+
+.meals-menu-photo {
+	width: 100%;
+}
+
+.card-meals-photo {
+	width: 100%;
+}
+
+.number-likes {
+ color: #72bb53;
+}
+
+.number-dislikes {
+	color: 
+}
+
+.page-link, .page-link:link, .page-link:visited {
+	color: #404040;
+}
+
+.active-pagination {
+	background-color: #72bb53;
+}
+
+.active-pagination:link, .active-pagination:visited {
+	color: white;
+}
+
 
 /*#################################----------------------MEALS PAGE ENDS HERE-----------------------------------------------###########################*/
 
 /*#################################----------------------ABOUT US PAGE STARTS HERE--------------------------------------------###########################*/
 #article-aboutus {
-	margin-top: 6.5em;
+	margin-top: 5em;
 }
 
 /*#our-house-box-img {
@@ -251,7 +304,7 @@ footer {
 /*#################################----------------------CONTACT US PAGE STARTS HERE--------------------------------------------###########################*/
 
 #article-contact-form {
-	margin-top: 6.5em;
+	margin-top: 4.5em;
 }
 
 .contactus-social-icons {
@@ -298,6 +351,10 @@ footer {
 	height: 2.5em;
 }
 
+p {
+	font-size: .8em;
+}
+
 .page-title{
 font-size: 2em;
 font-weight: bolder;
@@ -312,9 +369,7 @@ font-size: 1.2em;
 }
 
 
-nav {
-	background-color: white;
-}
+
 
 .navbar {
 	padding: 0;
