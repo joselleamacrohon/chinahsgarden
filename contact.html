@@ -46,7 +46,7 @@
 
 							<li class="nav-item"><a class="nav-link" href="about.html"><i class="fas fa-people-carry"></i> About Us</a></li>
 
-							<li class="nav-item active-navis"><a class="nav-link" href="contact.html"><i class="fas fa-comments"></i> Contact Us</a></li>
+							<li class="nav-item"><a id="active-navis" class="nav-link" href="contact.html"><i class="fas fa-comments"></i> Contact Us</a></li>
 
 						</ul>	
 				</div>
@@ -57,47 +57,92 @@
 			<div class="row">
 				
 				<form class="col-lg-8">
-					<div class="form-row align-items-center">
-					  	<div class="col-lg-4 my-1">  
-						    
-						      <div class="input-group">
-							        <div class="input-group-prepend">
-								           <label for="username-chn"><div class="input-group-text"><i class="far fa-smile"></i></div></label>
-							        </div>
-							        <input type="text" class="form-control" id="username-chn" placeholder="Your Name Here">
-						      </div>
-						      
-						
-					    </div>
-
-					     <div class="col-lg-4 my-1">
-      								
-							      <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
-							        <option selected>Choose...</option>
-							        <option value="1">Inquiry</option>
-							        <option value="2">Reservation</option>
-							        <option value="3">Orders</option>
-							        <option value="4">Others</option>
-							      </select>
-							    </div>
-					   
-					    
-					</div>
-				</form>
-
-				<div class="col-lg-4">
+					<div id="form-contactus" class="container-fluid">
+						<h2 class="my-3">Message us!</h2>
 					
-					<ul class="list-group list-group-flush">
-					  <li class="list-group-item">Cras justo odio</li>
-					  <li class="list-group-item">Dapibus ac facilisis in</li>
-					  <li class="list-group-item">Morbi leo risus</li>
-					  <li class="list-group-item">Porta ac consectetur ac</li>
-					  <li class="list-group-item">Vestibulum at eros</li>
-					</ul>
+						<div class="form-row align-items-center">
+						  	<div class="col-lg-5 my-1">  
+							      <div class="input-group">
+								        <span class="input-group-prepend">
+									           <label for="username-chn"><div class="input-group-text"><i class="far fa-smile"></i></div></label>
+								        </span>
+								        <input type="text" class="form-control" id="username-chn" placeholder="Your Name Here">
+							      </div>
+						    </div>
+						    <div class="col-lg-4 mb-2">
+	      							  <select class="custom-select" id="select-option-form">
+								        <option selected>Choose...</option>
+								        <option value="1">Inquiry</option>
+								        <option value="2">Reservation</option>
+								        <option value="3">Orders</option>
+								        <option value="4">Others</option>
+								      </select>
 
+							</div>
+						    <div class="col-lg-9 my-1"> 
+							      <div class="input-group">
+								        <div class="input-group-prepend">
+									           <label for="email-chn"><div class="input-group-text"><i class="far fa-envelope"></i></div></label>
+								        </div>
+								        <input type="email" class="form-control" id="email-chn" placeholder="Your Email Here" required="">
+							      </div>
+							      
+						    </div>
+
+							<div class="form-group col-lg-9">
+	    							<textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message here"></textarea>
+						    </div>					    
+
+						    <div class="form-group col-lg-12">
+								  <button type="submit" class="btn btn-outline-info">Sign in</button>
+						    </div>
+
+						</div>
+					</div>  <!-- end of form-container-contactus -->
+
+				</form>
+		
+				<div class="col-lg-4">
+					<div id="follow-us">
+						<h3 class="my-3">Follow us!</h3>
+								    
+						<ul class="list-group list-group-flush">
+						  <li class="list-group-item"><img class="contactus-social-icons" src="assets/images/facebook.png"> ChinahsGarden Philippines</li>
+						  <li class="list-group-item"><img class="contactus-social-icons" src="assets/images/snapchat.png"> ChinahsGarden</li>
+						  <li class="list-group-item"><img class="contactus-social-icons" src="assets/images/twitter.png"> @chinahsgardenph</li>
+						  <li class="list-group-item"><img class="contactus-social-icons" src="assets/images/instagram.png"> @chinahsgardenph</li>
+						  <!-- <li class="list-group-item"><img class="contactus-social-icons" src="asset/images/.png">Vestibulum at eros</li> -->
+						</ul>
+					</div>
 				</div>
 
+				<div class="col-lg-8">
+					<div class="row">
+						<div class="col-lg-9">
+							<h3>Visit Us!</h3>
+							<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.688465471602!2d121.32110841533442!3d14.730197089720052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339799d97cc96e0b%3A0xe76ed07c6ac79541!2sSan+Jose!5e0!3m2!1sen!2sph!4v1540537823958" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+							<iframe id="chinahsgarden-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3858.4403184921125!2d121.31888565112125!3d14.744205389660667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339799c633098c35%3A0x78b76a36e9934baa!2sSta.+Ines+Road%2C+Antipolo%2C+Rizal!5e0!3m2!1sen!2sph!4v1540538034106" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div id="mailing-list-form">
+					<h3 class="mb-3">Be part of our mailing list..</h3>
 
+					<form class="form-inline">
+						  <!-- <div class="form-group mb-2"> -->
+							    <!-- <label for="staticEmail2" class="sr-only">Email</label> -->
+							    <!-- <input type="text" readonly class="form-control-plaintext" id="staticEmail2" value="email@example.com"> -->
+						  <!-- </div> -->
+						  <div class="form-group  mb-2">
+							    <label for="email-mail-list" class="input-group-text"><i class="far fa-envelope"></i></label>
+							    <input type="email" class="form-control" id="email-mail-list" placeholder="email" required="">
+						  </div>
+						  <button type="submit" class="btn btn-primary mb-2">submit</button>
+					</form>
+					</div>
+
+				</div>	
 			</div> <!-- end of row -->
 		</article>
 

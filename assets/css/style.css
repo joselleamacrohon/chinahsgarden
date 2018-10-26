@@ -33,22 +33,22 @@ body {
 }
 
 nav {
-	/*margin-top: 3vh;*/
+	/*padding-top: 10vh;*/
 	/*background-color: white;*/
-	background-color: rgba(255,255,255,0);
-	/*height: 5vh;*/
+	background-color: rgba(255,255,255,1);
+	height: 11vh;
 	margin-bottom: -50px;
 }
 
 .nav-item {
-	padding-left: 2em;
-	padding-right: 2em;
-	background-color: #72bb53;
+	padding-left: 1em;
+	padding-right: 1em;
+	/*background-color: #72bb53;*/
 	/*border: 2px solid white;*/
-	border-radius: .5em;
-	margin-right: 2px;
+	/*border-radius: .5em;*/
+	/*margin-right: 2px;*/
 	font-size: 1.1em;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 
 .nav-link {
@@ -57,25 +57,47 @@ nav {
 	/*color: red;*/
 }
 
-.nav-item:link, .nav-item:visited{
-	/*color: white;*/
-}
+
 
 .nav-link:link, .nav-link:visited{
-	color: white;
+	/*color: white;*/
+	color: #72bb53;
 }
 
 .nav-item:hover {
-	color: white;
-	background-color: #4c7a34;
-
+	/*color: white;*/
+	/*background-color: #4c7a34;*/
 }
 
-.active-navis {
-	color: white;
-	background-color: #4c7a34;
-
+.nav-link:hover{
+	color: purple;
 }
+
+#active-navis:visited, #active-navis:link {
+	color: #404040;
+	text-decoration: underline;
+}
+
+#active-navis:hover {
+	text-decoration: underline;
+	color: purple;
+}
+
+/*.nav-link:visited  {*/
+	/*color: white;*/
+	/*background-color: #red;*/
+/*}*/
+
+/*.active-navis .nav-link:visited, .active-navis .nav-link:link {*/
+	/*color: white;*/
+	/*background-color: #4c7a34;*/
+	/*color: #4c7a34;*/
+	/*text-decoration: underline;*/
+/*}*/
+
+
+
+
 
 #navbar-nav {
 	/*background-color: black;*/
@@ -109,7 +131,7 @@ a:hover {
 .carousel-photo-main {
 	/*height: 80vh;*/
 	width: 100%;
-	height: 80vh;
+	/*height: 80vh;*/
 }
 
 #carousel-homepage {
@@ -118,13 +140,6 @@ a:hover {
 
 /*end carousel*/
 
-#info-footer {
-	min-height: 3em;
-	color: white;
-	line-height: 3em;
-	text-align: center;
-	background-color: green;
-}
 
 /*jumbotron here*/
 
@@ -140,22 +155,34 @@ font-size: 1em;
 
 /*/footer--------------------------------------------------------------------------*/
 .icon-footer-socials {
-	color: green;
-	font-size: 2em;
+	font-size: 1.5em;
 	padding-left: .5em;
 
 }
 
+
+#info-footer {
+	/*min-height: 3em;*/
+	/*color: white;*/
+	line-height: 2.5em;
+	text-align: center;
+	/*background-color: green;*/
+	background-color: #72bb53;
+}
+
 footer {
 	height: auto;
-	background-color: rgb(75, 75, 75);
+	background-color: #404040;
+	/*background-color: rgba(75, 75, 75, .8);*/
 }
 
 
 
 #footer-grey-notes {
-	padding-top: .5em;
-	padding-bottom: .5em;
+	padding-top: .4em;
+	padding-bottom: .4em;
+	font-size: .8em;
+	color: red;
 
 }
 
@@ -197,6 +224,36 @@ footer {
 #article-contact-form {
 	margin-top: 6.5em;
 }
+
+.contactus-social-icons {
+	height: 3em;
+}
+
+.input-group-text {
+	font-size: 1.5em;
+	color: white;
+	background-color: #404040;
+	/*margin-bottom: 2em;*/
+}
+
+#form-contactus {
+/*align-self: left;*/
+/*background-color: red;*/
+/*width: 90%;*/
+/*padding-right: 10em;*/
+/*border: 1px solid red;*/
+}
+
+#chinahsgarden-map {
+	width: 90%; 
+	height: 300px;
+	padding:.5em;
+	/*border:1px solid #404040;*/
+}
+
+#mailing-list-form {
+	margin-top: 5em;
+}
 /*#################################----------------------CONTACT US PAGE ENDS HERE-----------------------------------------------###########################*/
 
 
@@ -220,7 +277,8 @@ nav {
 }
 
 .carousel-photo-main {
-	height: 40vh;
+	height: 30vh;
+	/*width: 100%;*/
 }
 
 #burger-box {
@@ -268,6 +326,10 @@ nav {
 	height: 3em;
 }
 
+#socials-icons, #remove-tablet {
+	display: none;
+
+}
 
 .carousel-photo-main {
 	height: 50vh;
@@ -279,9 +341,7 @@ nav {
 	border-radius: 0;
 }
 
-#info-footer, .footer-text-format {
-	padding: 5px;
-}
+
 
 
 } /*end of tablet media*/
