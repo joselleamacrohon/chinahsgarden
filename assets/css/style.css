@@ -56,6 +56,12 @@ font-weight: bold;
 color: #72bb53;
 }
 
+.ptsans {
+	font-family: 'PT Sans', sans-serif;
+/*color: red;*/
+}
+
+
 p {
 	font-family: 'PT Sans', sans-serif;
 	color: #404040;
@@ -270,7 +276,12 @@ footer {
 	margin: 0 auto;
 }
 
-
+#footer-fixed-contact {
+	position: relative;
+	top: 75px;	/*margin-top: 1000px;*/
+	width: 100%;
+	margin: 0 auto;
+}
 
 /*end footer here-------------------------------------*/
 
@@ -540,12 +551,9 @@ font-size: 2em;
 font-weight: bolder;
 }
 
+
 .ptsans-subtitle {
-	/*font-family: 'PT Sans', sans-serif;*/
-/*font-family: 'Sacramento', cursive;*/
 font-size: 1.2em;
-/*font-weight: bold;*/
-/*color: #72bb53;*/
 }
 
 .navbar {
@@ -602,9 +610,15 @@ font-size: 1.2em;
 }
 
 #footer-fixed {
-	width: 100%;
+	width: 93%;
 	margin: 0 auto;
 }
+
+/*#footer-fixed-contact {
+	
+	width: 93%;
+	margin: 0 auto;
+}*/
 
 #jumbotron-sumptuous {
 padding-top: 2em;
