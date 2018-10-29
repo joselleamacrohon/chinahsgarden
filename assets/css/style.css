@@ -37,13 +37,16 @@ font-weight: bolder;
 }
 
 #main-icon {
-	height: 1.8em;
+	height: 4rem;
 	/*width: 1.5em;*/
 	/*height: 5em;*/
 	/*height: 100px;*/
-	margin-right: .2em;
-	margin-top: .2em;
+	margin-right: .2rem;
+	/*margin-top: .2em;*/
+	margin-bottom: .5em;
 }
+
+
 
 .ptsans-subtitle {
 	font-family: 'PT Sans', sans-serif;
@@ -66,8 +69,9 @@ p {
 	/*padding-top: 10vh;*/
 	/*background-color: white;*/
 	background-color: rgba(255,255,255,1);
-	height: 9vh;
+	/*height: 9vh;*/
 	margin-bottom: -50px;
+	padding-bottom: 0;
 }
 
 .nav-item {
@@ -106,11 +110,11 @@ p {
 
 #active-navis:visited, #active-navis:link {
 	color: #404040;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 }
 
 #active-navis:hover {
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	color: purple;
 }
 
@@ -224,7 +228,37 @@ footer {
 /*#################################----------------------END MAIN PAGE HERE--------------------------------------------###########################*/
 /*#################################----------------------PRODUCE MAIN PAGE STARTS HERE---------------------------------------###########################*/
 
+.carousel-photo-produce {
+	/*margin-top: 10em;*/
+	/*border: 1px solid red;*/
+}
 
+#carousel-produce {
+
+	/*border: 2px solid red;*/
+	width: 100%;
+	/*align-items: center;*/
+	margin: 0 auto;
+	margin-top: 6.5em;
+}
+
+#below-carousel-text-produce {
+	width: 70%;
+
+}
+
+#below-carousel-text-produce p{
+	font-family: 'Sacramento', cursive;
+	font-size: 2em;
+}
+
+.produce-menu-photo {
+	width: 100%;
+}
+
+.card-produce-photo {
+	width: 100%;
+}
 
 
 /*#################################----------------------PRODUCE MAIN PAGE ENDS HERE---------------------------------------###########################*/
@@ -232,23 +266,25 @@ footer {
 /*#################################----------------------MEALS PAGE STARTS HERE--------------------------------------------###########################*/
 
 .carousel-photo-meals {
-	margin-top: 85px;
+	/*margin-top: 10em;*/
 	/*border: 1px solid red;*/
 }
 
 #carousel-meals {
-	
+
+	border: 2px solid red;
 	width: 100%;
 	/*align-items: center;*/
 	margin: 0 auto;
+	margin-top: 6.5em;
 }
 
-#below-carousel-text {
+#below-carousel-text-meals {
 	width: 70%;
 
 }
 
-#below-carousel-text p{
+#below-carousel-text-meals p{
 	font-family: 'Sacramento', cursive;
 	font-size: 2em;
 }
@@ -261,6 +297,8 @@ footer {
 	width: 100%;
 }
 
+
+/*------heart likes (meals and produce page)*/
 .number-likes {
  color: #72bb53;
 }
@@ -269,6 +307,7 @@ footer {
 	color: 
 }
 
+/*--------pagination (meals and produce)*/
 .page-link, .page-link:link, .page-link:visited {
 	color: #404040;
 }
@@ -304,7 +343,7 @@ footer {
 /*#################################----------------------CONTACT US PAGE STARTS HERE--------------------------------------------###########################*/
 
 #article-contact-form {
-	margin-top: 4.5em;
+	margin-top: 5.5em;
 }
 
 .contactus-social-icons {
@@ -368,9 +407,6 @@ font-size: 1.2em;
 /*color: #72bb53;*/
 }
 
-
-
-
 .navbar {
 	padding: 0;
 }
@@ -419,6 +455,44 @@ padding-top: 2em;
 padding-bottom: 7em; 
 }
 
+
+#below-carousel-text-meals {
+	width: 100%;
+}
+
+
+#below-carousel-text-meals p{
+	font-family: 'Sacramento', cursive;
+	font-size: 1.2em;
+}
+
+.meals-item-title {
+	font-size: 1em;
+}
+
+.meals-price, .meals-rate{
+	font-size: .8em;
+}
+
+#below-carousel-text-produce {
+	width: 100%;
+}
+
+
+#below-carousel-text-produce p{
+	font-family: 'Sacramento', cursive;
+	font-size: 1.2em;
+}
+
+
+.produce-item-title {
+	font-size: 1em;
+}
+
+.produce-price, .produce-addtl-info{
+	font-size: .8em;
+}
+
 } /*end of mobile media*/
 
 
@@ -427,6 +501,12 @@ padding-bottom: 7em;
 
 #main-icon {
 	height: 2em;
+}
+
+
+#main-navi {
+	/*height: 7em;*/
+	/*margin-bottom: -1000px; */
 }
 
 #jumbotron-sumptuous {
@@ -445,6 +525,7 @@ padding-bottom: 10em;
 
 .carousel-photo-main {
 	height: 50vh;
+
 	/*width: 100%;*/
 }
 
@@ -453,7 +534,25 @@ padding-bottom: 10em;
 	border-radius: 0;
 }
 
+#below-carousel-text-meals {
+	width: 100%;
+}
 
+
+#below-carousel-text-meals p{
+	font-family: 'Sacramento', cursive;
+	font-size: 1.7em;
+}
+
+#below-carousel-text-produce {
+	width: 100%;
+}
+
+
+#below-carousel-text-produce p{
+	font-family: 'Sacramento', cursive;
+	font-size: 1.7em;
+}
 
 
 } /*end of tablet media*/
