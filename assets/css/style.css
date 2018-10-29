@@ -8,11 +8,11 @@
 
 }
 
-.clear:after{
-	content: " "; /*invisible element*/
+/*.clear:after{
+	content: " "; invisible element
 	clear: both;
 	display: block;
-}
+}*/
 
 body {
 	/*background-color: lightgrey;*/
@@ -201,6 +201,11 @@ border: 1px solid #72bb53;
 	margin-top: 5.5em;
 }
 
+.main-carousel-caption
+{
+	/*background-color: red;*/
+	background-color: rgba(64, 64, 64, .20);
+}
 /*end carousel*/
 
 
@@ -261,12 +266,64 @@ footer {
 }
 
 #footer-fixed {
-	width: 79%;
+	width: 78.5%;
 	margin: 0 auto;
 }
+
+
+
 /*end footer here-------------------------------------*/
 
 /*#################################----------------------END MAIN PAGE HERE--------------------------------------------###########################*/
+/*#################################----------------------index PAGE STARTS HERE---------------------------------------###########################*/
+
+
+
+.helloindex {
+	height: 90vh;
+	background-image:url(../images/index.jpg);
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.helloindex-top {
+	height: 5vh;
+}
+
+.welcome-box {
+	text-align: center;
+	background-color: rgba(255,255,255,0);
+	position: relative;
+	top: 35%;
+}
+
+#index-welcome-title {
+	text-shadow: 2px 2px 4px black;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #e0da86;
+	font-size: 5em;
+}
+
+#btn-chinah-index {
+	margin-top: 2em;
+font-family: 'PT Sans', sans-serif;
+background-color: #404040;
+color: white;
+text-shadow: none;
+/*padding: 1em;*/
+}
+
+#btn-chinah-index:hover {
+background-color: #72bb53;
+color: white;
+}
+
+#btn-chinah-index:active {
+box-shadow: none;
+}
+
+/*#################################----------------------index ENDS STARTS HERE---------------------------------------###########################*/
 /*#################################----------------------PRODUCE MAIN PAGE STARTS HERE---------------------------------------###########################*/
 
 .carousel-photo-produce {
@@ -280,7 +337,7 @@ footer {
 	width: 100%;
 	/*align-items: center;*/
 	margin: 0 auto;
-	margin-top: 6.5em;
+	margin-top: 6.55em;
 }
 
 #below-carousel-text-produce {
@@ -300,24 +357,25 @@ footer {
 .card-produce-photo {
 	width: 100%;
 }
-
+#produce-page .modal-title {
+	color: #72bb53;
+	/*font-family: Sacramento, sans-serif;*/
+}
 
 /*#################################----------------------PRODUCE MAIN PAGE ENDS HERE---------------------------------------###########################*/
 
 /*#################################----------------------MEALS PAGE STARTS HERE--------------------------------------------###########################*/
 
 .carousel-photo-meals {
-	/*margin-top: 10em;*/
-	/*border: 1px solid red;*/
-}
+	}
 
 #carousel-meals {
 
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	width: 100%;
 	/*align-items: center;*/
 	margin: 0 auto;
-	margin-top: 6.5em;
+	margin-top: 6.55em;
 }
 
 #below-carousel-text-meals {
@@ -365,6 +423,10 @@ footer {
 	/*width: 50vh;*/
 }
 
+#meals-page .modal-title {
+	color: #72bb53;
+	/*font-family: Sacramento, sans-serif;*/
+}
 
 /*#################################----------------------MEALS PAGE ENDS HERE-----------------------------------------------###########################*/
 
@@ -437,13 +499,31 @@ footer {
 		color: #404040;
 }
 
+ .social-icons-text:visited, .social-icons-text:link {
+	color: #404040;
+	text-decoration: none;
+}
+
+ .social-icons-text:hover, .social-icons-text:hover {
+	font-weight: bold;
+}
 /*#################################----------------------CONTACT US PAGE ENDS HERE-----------------------------------------------###########################*/
 
 
 
-/*MOBILE SCREEN*/
+/**************************************************************************************MOBILE SCREEN**************************************************************************************/
 
 @media only screen and (max-width: 400px) {
+
+.welcome-box {
+	position: relative;
+	top: 60%;
+}
+
+#index-welcome-title {
+		font-size: 3em;
+}
+
 
 #main-icon {
 	/*margin-top: 0.5em;*/
@@ -486,6 +566,16 @@ font-size: 1.2em;
 	border-radius: 0;
 }
 
+#carousel-homepage {
+	margin-top: 6.7em;
+	height: 30vh;
+	/*border: 2px solid red;*/
+}
+
+.carousel-photo-main {
+	height: 30vh;
+}
+
 .footer-text-format {
 	font-size: 1em;
 	line-height: 1.5em;
@@ -511,11 +601,25 @@ font-size: 1.2em;
 	font-size: .8em;
 }
 
-#jumbotron-sumptuous {
-padding-top: 2em;
-padding-bottom: 7em; 
+#footer-fixed {
+	width: 100%;
+	margin: 0 auto;
 }
 
+#jumbotron-sumptuous {
+padding-top: 2em;
+padding-bottom: 3em; 
+	
+}
+
+
+#mailing-list-form-mobile {
+	background-color: #404040;
+	height: 7em;
+	padding: .5em;
+	border-radius: 4px;
+	/*font-family: sacramento, sans-serif;*/
+}
 
 #below-carousel-text-meals {
 	width: 100%;
@@ -554,17 +658,30 @@ padding-bottom: 7em;
 	font-size: .8em;
 }
 
-
+.click-to-know-more {
+	display: none;
+}
 
 
 } /*end of mobile media*/
 
 
-/*TABLET VIEW */
+/***********************************************************************TABLET VIEW ***************************************************************************************/
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+
+.welcome-box {
+	position: relative;
+	top: 60%;
+}
 
 #main-icon {
 	height: 2em;
+}
+
+#carousel-homepage {
+	margin-top: 6.7em;
+	height: auto;
+	/*border: 2px solid red;*/
 }
 
 
@@ -574,12 +691,24 @@ padding-bottom: 7em;
 }
 
 #jumbotron-sumptuous {
-padding-top: 2em;
-padding-bottom: 10em; 
+	/*padding: 0;*/
+/*padding-top: 2em;*/
+/*padding-bottom: 4em; */
 }
 
 #jumbotron-sumptuous h3 {
 	font-size: 2.5em;
+}
+
+#mailing-list-form-mobile {
+	background-color: #404040;
+	padding: 2.5em;
+	border-radius: 8px;
+	/*font-family: sacramento, sans-serif;*/
+}
+#footer-fixed {
+	width: 97%;
+	margin: 0 auto;
 }
 
 #socials-icons, #remove-tablet {
@@ -608,6 +737,14 @@ padding-bottom: 10em;
 	font-size: 1.7em;
 }
 
+.cut-content-meals {
+	display: none;
+}
+
+.cut-content-produce {
+	display: none;
+}
+
 #below-carousel-text-produce {
 	width: 100%;
 }
@@ -618,16 +755,27 @@ padding-bottom: 10em;
 	font-size: 1.7em;
 }
 
+#form-contactus {
+	margin-top: 2.8em;
+}
 
 } /*end of tablet media*/
 
-/*DESKTOP VIEW*/
+/**************************************************************************************DESKTOP VIEW**************************************************************************************/
 @media only screen and (min-width: 961px) { 
 body {
 	width: 80%;
 }
 
 #jumbotron-sumptuous {
+	display: none;
+}
+
+#mailing-list-form-mobile {
+	display: none;
+}
+
+.click-to-know-more {
 	display: none;
 }
 
