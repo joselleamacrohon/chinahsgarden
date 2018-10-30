@@ -17,6 +17,8 @@
 body {
 	/*background-color: lightgrey;*/
 	margin: 0 auto;
+		font-family: 'PT Sans', sans-serif;
+	/*font-family: 'Sacramento', cursive;*/
 	/*font-family: 'Roboto', sans-serif;*/
 }
 
@@ -50,7 +52,7 @@ font-weight: bolder;
 
 .ptsans-subtitle {
 	font-family: 'PT Sans', sans-serif;
-/*font-family: 'Sacramento', cursive;*/
+
 /*font-size: 2em;*/
 font-weight: bold;
 color: #72bb53;
@@ -61,12 +63,16 @@ color: #72bb53;
 /*color: red;*/
 }
 
+.sacramento-font {
+font-family: 'Sacramento', cursive;
+font-size: 1.5em;
+font-weight: bold;
+}
 
 p {
 	font-family: 'PT Sans', sans-serif;
 	color: #404040;
 }
-
 
 
 
@@ -188,6 +194,10 @@ color:  white;
 border: 1px solid #72bb53;
 }
 /**/
+.form-control {
+	font-family: 'PT Sans', sans-serif;
+	color: #404040;
+}
 .form-control:focus {
 	box-shadow: 0px 0px 3px 1Px #72bb53 ;
 	border: 1px solid #72bb53;
@@ -373,6 +383,12 @@ box-shadow: none;
 	/*font-family: Sacramento, sans-serif;*/
 }
 
+.card {
+	border: none;
+}
+
+
+
 /*#################################----------------------PRODUCE MAIN PAGE ENDS HERE---------------------------------------###########################*/
 
 /*#################################----------------------MEALS PAGE STARTS HERE--------------------------------------------###########################*/
@@ -401,6 +417,16 @@ box-shadow: none;
 
 .meals-menu-photo {
 	width: 100%;
+	 /*transition: filter .5s ease-in-out;*/
+/*  -webkit-filter: grayscale(100%);*/ /* Ch 23+, Saf 6.0+, BB 10.0+ */
+  /*filter: grayscale(100%);*/ /* FF 35+ */
+}
+
+.meals-menu-photo:hover{
+	/*width: 120%;*/
+	/*border: 2px solid red;*/
+/*	-webkit-filter: grayscale(0%); *//* Ch 23+, Saf 6.0+, BB 10.0+ */
+  /*filter: grayscale(0%);*/ /* FF 35+ */
 }
 
 .card-meals-photo {
@@ -437,6 +463,33 @@ box-shadow: none;
 #meals-page .modal-title {
 	color: #72bb53;
 	/*font-family: Sacramento, sans-serif;*/
+}
+
+.table-nutrition, {
+	width:100%;
+	/*font-size: .8em;*/
+
+	}
+
+table, th, td {
+		border: 1px solid #72bb53;
+		font-size: .85em;
+		font-family: 'PT Sans', sans-serif;
+		/*font-family: sacramento, sans-serif;*/
+
+		}
+
+td, th {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+.modal-body p {
+			/*font-size: .85em;*/
+		font-family: 'PT Sans', sans-serif;
+		/*font-family: sacramento, sans-serif;*/
+		text-align: justify;
+
 }
 
 /*#################################----------------------MEALS PAGE ENDS HERE-----------------------------------------------###########################*/
@@ -672,9 +725,9 @@ padding-bottom: 3em;
 	font-size: .8em;
 }
 
-.click-to-know-more {
+/*.click-to-know-more {
 	display: none;
-}
+}*/
 
 
 } /*end of mobile media*/
@@ -789,9 +842,9 @@ body {
 	display: none;
 }
 
-.click-to-know-more {
+/*.click-to-know-more {
 	display: none;
-}
+}*/
 
 } /*end of desktop media*/
 
