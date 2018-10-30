@@ -286,12 +286,7 @@ footer {
 	margin: 0 auto;
 }
 
-#footer-fixed-contact {
-	position: relative;
-	top: 75px;	/*margin-top: 1000px;*/
-	width: 100%;
-	margin: 0 auto;
-}
+
 
 /*end footer here-------------------------------------*/
 
@@ -684,9 +679,35 @@ padding-bottom: 3em;
 	background-color: #404040;
 	height: 7em;
 	padding: .5em;
-	border-radius: 4px;
+	border-radius: 4px 4px 0px 0px;
+	/*font-size: 1em;*/
 	/*font-family: sacramento, sans-serif;*/
 }
+
+#mailing-list-form-mobile h3 {
+ 	font-size: 1em;
+}
+
+#mailing-list-form-mobile .form-control {
+ 	height: 2.5em;
+ 	font-size: .8em;
+}
+
+#mailing-list-form-mobile .input-group-text {
+	height: 1.35em;
+}
+
+#mailing-list-form-mobile .btn {
+	font-size: .85em;
+	/*height: 1.35em;*/
+}
+
+
+/*
+#mailing-list-form-mobile h3 {
+ 	font-size: 1em;
+}
+*/
 
 #below-carousel-text-meals {
 	width: 100%;
@@ -759,7 +780,7 @@ padding-bottom: 3em;
 
 #jumbotron-sumptuous {
 	/*padding: 0;*/
-/*padding-top: 2em;*/
+padding-top: 2em;
 /*padding-bottom: 4em; */
 }
 
@@ -770,8 +791,32 @@ padding-bottom: 3em;
 #mailing-list-form-mobile {
 	background-color: #404040;
 	padding: 2.5em;
-	border-radius: 8px;
+	border-radius: 8px 8px 0px 0px;
 	/*font-family: sacramento, sans-serif;*/
+	position: absolute;
+	bottom: 69px;
+	width: 96%;
+}
+
+
+
+
+#mailing-list-form-mobile h3 {
+ 	font-size: 1.2em;
+}
+
+#mailing-list-form-mobile .form-control {
+ 	height: 2.6em;
+ 	font-size: .8em;
+}
+
+#mailing-list-form-mobile .input-group-text {
+	height: 1.35em;
+}
+
+#mailing-list-form-mobile .btn {
+	font-size: .85em;
+	/*height: 1.35em;*/
 }
 #footer-fixed {
 	width: 97%;
@@ -826,6 +871,14 @@ padding-bottom: 3em;
 	margin-top: 2.8em;
 }
 
+#footer-fixed-not-fixed-mobile-main {
+	position: absolute;
+	/*top: 75px;	margin-top: 1000px;*/
+	width: 96%;
+	/*margin: 0 auto;*/
+	bottom: 0;
+}
+
 } /*end of tablet media*/
 
 /**************************************************************************************DESKTOP VIEW**************************************************************************************/
@@ -840,6 +893,22 @@ body {
 
 #mailing-list-form-mobile {
 	display: none;
+}
+
+#footer-fixed-not-fixed-mobile-main {
+	position: absolute;
+	/*top: 75px;	margin-top: 1000px;*/
+	width: 78.5%;
+	/*margin: 0 auto;*/
+	bottom: 0;
+}
+
+#footer-fixed-not-fixed-mobile-contact {
+	position: absolute;
+	/*top: 75px;	margin-top: 1000px;*/
+	width: 78.5%;
+	/*margin: 0 auto;*/
+	bottom: 0;
 }
 
 /*.click-to-know-more {
