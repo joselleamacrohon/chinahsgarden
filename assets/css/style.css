@@ -368,7 +368,15 @@ box-shadow: none;
 
 .produce-menu-photo {
 	width: 100%;
+	 -webkit-filter: brightness(150%); /* Safari */
+    filter: brightness(120%);
 }
+
+.produce-menu-photo:hover {
+ -webkit-filter: brightness(100%); /* Safari */
+    filter: brightness(100%);
+}
+
 
 .card-produce-photo {
 	width: 100%;
@@ -412,12 +420,19 @@ box-shadow: none;
 
 .meals-menu-photo {
 	width: 100%;
+	-webkit-filter: brightness(150%); /* Safari */
+    filter: brightness(120%);
+
 	 /*transition: filter .5s ease-in-out;*/
 /*  -webkit-filter: grayscale(100%);*/ /* Ch 23+, Saf 6.0+, BB 10.0+ */
   /*filter: grayscale(100%);*/ /* FF 35+ */
 }
 
 .meals-menu-photo:hover{
+ -webkit-filter: brightness(100%); /* Safari */
+    filter: brightness(100%);
+
+
 	/*width: 120%;*/
 	/*border: 2px solid red;*/
 /*	-webkit-filter: grayscale(0%); *//* Ch 23+, Saf 6.0+, BB 10.0+ */
