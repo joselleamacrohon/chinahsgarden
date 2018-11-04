@@ -291,7 +291,7 @@ footer {
 
 .produce-menu-photo {
 	width: 100%;
-	 -webkit-filter: brightness(150%); /* Safari */
+	 -webkit-filter: brightness(120%); /* Safari */
     filter: brightness(120%);
 }
 
@@ -339,7 +339,7 @@ footer {
 
 .meals-menu-photo {
 	width: 100%;
-	-webkit-filter: brightness(150%); /* Safari */
+	-webkit-filter: brightness(120%); /* Safari */
     filter: brightness(120%);
 }
 
@@ -604,6 +604,18 @@ td, th {
 			font-size: .8em;
 		}
 
+
+		.meals-menu-photo {
+			 -webkit-filter: brightness(100%); /* Safari */
+		    filter: brightness(100%);
+		}
+
+		.produce-menu-photo {
+			width: 100%;
+			 -webkit-filter: brightness(100%); /* Safari */
+		    filter: brightness(100%);
+		}
+		
 		#below-carousel-text-produce {
 			width: 100%;
 		}
@@ -724,6 +736,19 @@ td, th {
 
 	.cut-content-meals {
 		display: none;
+	}
+
+
+
+	.meals-menu-photo {
+		 -webkit-filter: brightness(100%); /* Safari */
+	    filter: brightness(100%);
+	}
+
+	.produce-menu-photo {
+		width: 100%;
+		 -webkit-filter: brightness(100%); /* Safari */
+	    filter: brightness(100%);
 	}
 
 	.cut-content-produce {
