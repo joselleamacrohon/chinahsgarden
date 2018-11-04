@@ -318,9 +318,6 @@ footer {
 
 /*#################################----------------------MEALS PAGE STARTS HERE--------------------------------------------###########################*/
 
-.carousel-photo-meals {
-	}
-
 #carousel-meals {
 	width: 100%;
 	margin: 0 auto;
@@ -359,7 +356,7 @@ footer {
 }
 
 .number-dislikes {
-	color: 
+	color: #72bb53; 
 }
 
 /*--------pagination (meals and produce)*/
@@ -641,6 +638,15 @@ td, th {
 			bottom: 0;
 		}
 
+		#follow-us {
+			margin-bottom: 2em;
+		}
+
+		#mailing-list-form {
+			margin-bottom: 2em;
+		}
+
+
 } /*end of mobile media*/
 
 
@@ -767,6 +773,14 @@ td, th {
 
 	#form-contactus {
 		margin-top: 2.8em;
+	}
+
+	#follow-us {
+		margin-bottom: 2em;
+	}
+
+	#mailing-list-form {
+		margin-bottom: 2em;
 	}
 
 	#footer-fixed-not-fixed-mobile-main {
