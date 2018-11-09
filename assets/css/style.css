@@ -154,10 +154,12 @@ a:hover {
 
 .carousel-photo-main {
 	width: 100%;
+	/*border: 2px solid red;*/
 }
 
 #carousel-homepage {
 	margin-top: 5.5em;
+	/*border: 2px solid blue;*/
 }
 
 .main-carousel-caption
@@ -165,6 +167,12 @@ a:hover {
 	background-color: rgba(64, 64, 64, .20);
 }
 /*end carousel*/
+
+
+#go-down-icon {
+	font-size: 3em;
+	color:  #72bb53;
+}
 
 
 /*jumbotron here*/
@@ -179,6 +187,144 @@ font-size: 1em;
 }
 
 /*end jumbotron*/
+
+/*SERVICES */
+
+
+.services-offered {
+	height: 70vh;
+	/*background-color: black;*/
+	/*margin: .5em;*/
+	border: 2px solid white;
+	padding: 0;
+}
+
+.services-photo-main {
+	width: 100%;
+	padding: 1em;
+}
+
+#services-offered1 {
+	background-image: url("../images/produce.jpg");
+	 opacity: .7;
+	 background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#services-offered2 {
+	background-image: url("../images/hotmeals.jpg");
+	 opacity: .7;
+	 background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#services-offered3 {
+	background-image: url("../images/delivery.jpg");
+	 opacity: .7;
+	 background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.before-overlay-text {
+	font-size: 2em;
+	/*text-align: center;*/
+	padding-left: 1em;
+	padding-right: 1em;
+	/*position: absolute;*/
+	/*top: 2em;*/
+	
+	background-color: rgba(0,0,0,.3)
+	/*font-family: */
+}
+
+.button-overlay-text {
+	padding: 2em;
+}
+
+.overlay-text {
+	background-color: rgba(0,0,0,.3);
+	font-size: 3em;
+	line-height: 1.4em;
+	/*padding: .5em;*/
+	font-family: 'sacramento', sans-serif;
+	padding-bottom: .5em;
+}
+.overlay {
+	height: 100%;
+	width: 100%;
+	/*background-color: rgba(250,250,250,.5);*/
+
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*background-color: rgba(0,0,0,.2);*/
+	opacity: 0;
+}
+
+#services-offered1:hover {
+opacity: 1;
+transition: .5s ease;
+
+}
+
+#services-offered2:hover {
+opacity: 1;
+transition: .5s ease;
+
+}
+
+#services-offered3:hover {
+opacity: 1;
+transition: .5s ease;
+
+}
+
+
+#services-offered1:hover #overlay1 {
+opacity: 1;
+transition: .8s ease;
+position: relative;
+}
+
+#services-offered2:hover #overlay2 {
+opacity: 1;
+transition: .8s ease;
+position: relative;
+}
+
+#services-offered3:hover #overlay3 {
+opacity: 1;
+transition: .8s ease;
+position: relative;
+}
+
+
+#services-offered1:hover #before-overlay-text1{
+opacity: 0;
+
+}
+
+
+#services-offered2:hover #before-overlay-text2{
+opacity: 0;
+
+}
+
+
+#services-offered3:hover #before-overlay-text3{
+opacity: 0;
+
+}
+
+
+
+
+/*END OF SERVICES */
+
 
 /*/footer--------------------------------------------------------------------------*/
 .icon-footer-socials {
@@ -209,7 +355,7 @@ footer {
 
 #carousel-homepage {
 	margin-top: 6.7em;
-	height: 770px;
+	height: 740px;
 }
 
 .carousel-photo-main {
@@ -528,6 +674,42 @@ td, th {
 			height: 30vh;
 		}
 
+		#go-down-icon {
+			display: none;
+		}
+		.before-overlay-text {
+		font-size: 2em;
+		padding: 0;
+		}
+
+		.overlay-text{
+			font-size: 1.5em;
+		}
+		.overlay {
+
+		font-size: 1em;
+		opacity: 1;
+		}
+
+		.services-offered {
+			height: 30vh;
+		}
+
+		#services-offered1,
+		#services-offered2, 
+		#services-offered3 {
+		 opacity: 1;
+		}
+
+		#services-offered1:hover #before-overlay-text1,
+		#services-offered2:hover #before-overlay-text2,
+		#services-offered3:hover #before-overlay-text3{
+		opacity: 1;
+
+		}
+
+
+
 		.footer-text-format {
 			font-size: 1em;
 			line-height: 1.5em;
@@ -556,7 +738,8 @@ td, th {
 		}
 
 		#jumbotron-sumptuous {
-			padding: 3.5em;
+			padding: 3em;
+			margin-bottom: 0;
 		}		
 
 		#mailing-list-form-mobile {
@@ -564,8 +747,9 @@ td, th {
 			height: 7em;
 			padding: .5em;
 			border-radius: 4px 4px 0px 0px;
-			position: relative;
-			bottom: 25px;
+			margin-top: 1em;
+			/*position: relative;*/
+			/*bottom: 25px;*/
 		}
 
 		#mailing-list-form-mobile h3 {
@@ -635,9 +819,9 @@ td, th {
 		}
 
 		#footer-fixed-not-fixed-mobile-main {
-			position: absolute;
-			width: 92%;
-			bottom: 0;
+			/*position: absolute;*/
+			width: 100%;
+			/*bottom: 0;*/
 		}
 
 		#follow-us {
@@ -679,8 +863,65 @@ td, th {
 		height: auto;
 	}
 
+	.services-offered {
+		height: 30vh;
+	}
+
+	.button-overlay-text {
+		padding-top: 0;
+		padding-bottom: 0;
+		padding-left: .5em;
+		padding-right: .5em;
+
+	}
+	.before-overlay-text {
+	font-size: 2em;
+	
+	}
+
+	.overlay-text{
+		font-size: .60em;
+		font-family: 'pt sans', sans-serif;
+		padding: 0;
+	}
+	.overlay {
+	padding: 0;
+	font-size: 2em;
+	opacity: 1;
+	}
+
+	#overlay3 {
+		padding: 2em;
+	}
+		
+
+	.services-offered {
+		height: 30vh;
+		margin-bottom: 0;
+	}
+
+	#services-offered1,
+	#services-offered2, 
+	#services-offered3 {
+	 opacity: 1;
+	}
+
+	#services-offered1:hover #before-overlay-text1,
+	#services-offered2:hover #before-overlay-text2,
+	#services-offered3:hover #before-overlay-text3{
+	opacity: 1;
+
+	}
+
+
+	
 	#jumbotron-sumptuous {
-	padding-top: 2em;
+	 padding: 0;
+	 padding-top: 1em;
+	}
+
+	#go-down-icon {
+		display: none;
 	}
 
 	#jumbotron-sumptuous h3 {
@@ -688,12 +929,7 @@ td, th {
 	}
 
 	#mailing-list-form-mobile {
-		background-color: #404040;
-		padding: 2.5em;
-		border-radius: 8px 8px 0px 0px;
-		position: absolute;
-		bottom: 69px;
-		width: 96%;
+		display: none;
 	}
 
 
@@ -787,9 +1023,9 @@ td, th {
 	}
 
 	#footer-fixed-not-fixed-mobile-main {
-		position: absolute;
-		width: 96%;
-		bottom: 0;
+		/*position: absolute;*/
+		width: 100%;
+		/*bottom: 0;*/
 	}
 
 
@@ -811,9 +1047,9 @@ td, th {
 	}
 
 	#footer-fixed-not-fixed-mobile-main {
-		position: absolute;
-		width: 78.5%;
-		bottom: 0;
+		/*position: absolute;*/
+		width: 100%;
+		/*bottom: 0;*/
 	}
 
 	#footer-fixed-not-fixed-mobile-contact {
