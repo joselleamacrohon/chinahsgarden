@@ -682,6 +682,10 @@ td, th {
 		padding: 0;
 		}
 
+		.button-overlay-text {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
 		.overlay-text{
 			font-size: 1.5em;
 		}
@@ -692,7 +696,7 @@ td, th {
 		}
 
 		.services-offered {
-			height: 30vh;
+			height: 45vh;
 		}
 
 		#services-offered1,
