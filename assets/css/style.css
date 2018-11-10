@@ -576,8 +576,8 @@ td, th {
 }
 
 #chinahsgarden-map {
-	width: 90%; 
-	height: 300px;
+	width: 75%; 
+	height: 400px;
 	padding:.5em;
 }
 
@@ -602,6 +602,15 @@ td, th {
  .social-icons-text:hover, .social-icons-text:hover {
 	font-weight: bold;
 }
+
+#twitter-timeline-container {
+	padding-top: 1em;
+	height: 40em;
+	/*border: 2px solid red;*/
+	width: 100%;
+}
+
+
 /*#################################----------------------CONTACT US PAGE ENDS HERE-----------------------------------------------###########################*/
 
 
@@ -886,7 +895,7 @@ td, th {
 
 	.overlay-text{
 		font-size: .60em;
-		font-family: 'pt sans', sans-serif;
+	
 		padding: 0;
 	}
 	.overlay {
@@ -1027,6 +1036,13 @@ td, th {
 		margin-bottom: 2em;
 	}
 
+	#twitter-timeline-container {
+	height: 10em;
+	width: 100%;
+	}
+
+
+
 	#footer-fixed-not-fixed-mobile-main {
 		/*position: absolute;*/
 		width: 100%;
@@ -1058,9 +1074,9 @@ td, th {
 	}
 
 	#footer-fixed-not-fixed-mobile-contact {
-		position: absolute;
-		width: 78.5%;
-		bottom: 0;
+		/*position: absolute;*/
+		width: 100%;
+		/*bottom: 0;*/
 	}
 
 } /*end of desktop media*/
