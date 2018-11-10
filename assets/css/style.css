@@ -235,7 +235,7 @@ font-size: 1em;
 	padding-right: 1em;
 	/*position: absolute;*/
 	/*top: 2em;*/
-	
+	letter-spacing: .1em;
 	background-color: rgba(0,0,0,.3)
 	/*font-family: */
 }
@@ -246,10 +246,10 @@ font-size: 1em;
 
 .overlay-text {
 	background-color: rgba(0,0,0,.3);
-	font-size: 3em;
+	font-size: 2em;
 	line-height: 1.4em;
 	/*padding: .5em;*/
-	font-family: 'sacramento', sans-serif;
+	font-family: 'pt sans', sans-serif;
 	padding-bottom: .5em;
 }
 .overlay {
@@ -678,7 +678,8 @@ td, th {
 			display: none;
 		}
 		.before-overlay-text {
-		font-size: 2em;
+		font-size: 1.2em;
+		/*letter-spacing: .1em;*/
 		padding: 0;
 		}
 
@@ -687,7 +688,7 @@ td, th {
 			padding-bottom: 0;
 		}
 		.overlay-text{
-			font-size: 1.5em;
+			font-size: 1em;
 		}
 		.overlay {
 
